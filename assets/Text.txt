@@ -1,0 +1,85 @@
+import React from "react";
+import { StyleSheet, View, Text, Image } from "react-native";
+import { places as DATA } from "../data/places";
+const RenderCard = ({ title, description, images }) => {
+  return (
+    <View style={styles.cardContainer}>
+      <View style={styles.imageContainer}>
+        <Image
+          style={styles.image}
+          source={require("../assets/images/murree/kashmir_point/KP_1.jpg")}
+        />
+        <View style={styles.overlay}>
+          <Text style={styles.overlayText}>PHOTOS</Text>
+        </View>
+      </View>
+      <View style={styles.cardContent}>
+        <Text style={styles.cardTitle}>{title}</Text>
+        <Text style={styles.cardDescription}>{description}</Text>
+        {/* Add other content as needed */}
+      </View>
+    </View>
+  );
+};
+
+const HomeScreen = () => {
+  const selectedPlace = DATA[0].data[0]; // Choose the place you want to display
+
+  return (
+    <View style={styles.container}>
+      <RenderCard {...selectedPlace} />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    justifyContent: "center",
+
+    alignItems: "center",
+  },
+  cardContainer: {
+    width: "80%",
+    borderRadius: 10,
+    overflow: "hidden",
+    borderWidth: 1,
+    borderColor: "coolGray.200",
+  },
+  imageContainer: {
+    position: "relative",
+    height: 300,
+  },
+  image: {
+    width: "100%",
+    aspectRatio: 16 / 9,
+  },
+  overlay: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: "violet.500",
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+  },
+  overlayText: {
+    color: "warmGray.50",
+    fontWeight: "700",
+    fontSize: 12,
+  },
+  cardContent: {
+    padding: 16,
+  },
+  cardTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 8,
+  },
+  cardDescription: {
+    fontSize: 14,
+    fontWeight: "400",
+    marginBottom: 8,
+  },
+});
+
+export default HomeScreen;

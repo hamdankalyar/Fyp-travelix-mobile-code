@@ -1,0 +1,85 @@
+[
+  {
+    "_id": "101",
+    "carModel": "Toyota Corolla 2017",
+    "carType": "Sedan",
+    "location": "Faislabad",
+    "rentalCompanyName": "City Drive Rentals",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s"
+    ],
+    "duration": "Per day",
+    "price": 50,
+    "maxPersonsAllowed": 5,
+    "features": [
+      "🌬️ Air conditioning",
+      "⚙️ Automatic transmission",
+      "📍 GPS navigation",
+      "📱 Bluetooth connectivity",
+      "👶 Child seat available upon request",
+      "🛣️ Unlimited mileage",
+      "🆘 Roadside assistance"
+    ],
+    "rating": 4.5,
+    "noOfReviews": 120,
+    "owner": {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+      "name": "John Doe",
+      "email": "johndoe@example.com"
+    },
+
+    "additionalServices": [
+      "📍 GPS rental",
+      "👶 Child seat rental",
+      "👥 Additional driver option"
+    ]
+  },
+  {
+    "_id": "102",
+    "carModel": "Toyota Corolla",
+    "carType": "Sedan",
+    "location": "Los Angeles",
+    "rentalCompanyName": "City Drive Rentals",
+    "images": [
+      "toyota_corolla_1.jpg",
+      "toyota_corolla_2.jpg",
+      "toyota_corolla_3.jpg"
+    ],
+    "duration": "Per day",
+    "price": 50,
+    "maxPersonsAllowed": 5,
+    "features": [
+      "🌬️ Air conditioning",
+      "⚙️ Automatic transmission",
+      "📍 GPS navigation",
+      "📱 Bluetooth connectivity",
+      "👶 Child seat available upon request",
+      "🛣️ Unlimited mileage",
+      "🆘 Roadside assistance"
+    ],
+    "rating": 4.5,
+    "noOfReviews": 120,
+    "owner": {
+      "image": "https://example.com/images/owner.jpg",
+      "name": "John Doe",
+      "email": "johndoe@example.com"
+    },
+    "availableDates": [
+      "10 Apr, 2024 - 20 Apr, 2024",
+      "05 May, 2024 - 15 May, 2024"
+    ],
+    "pickupLocation": "Downtown LA",
+    "dropoffLocation": "Downtown LA",
+    "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+    "insuranceOptions": [
+      "Collision Damage Waiver",
+      "Personal Accident Insurance",
+      "Theft Protection"
+    ],
+    "additionalServices": [
+      "📍 GPS rental",
+      "👶 Child seat rental",
+      "👥 Additional driver option"
+    ]
+  }
+]

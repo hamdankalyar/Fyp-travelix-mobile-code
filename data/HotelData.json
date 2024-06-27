@@ -1,0 +1,45 @@
+[
+    {
+        "_id": "201",
+        "hotelName": "Grand Plaza Hotel",
+        "location": "New York City",
+        "hotelChain": "Luxury Collection",
+        "images": [
+            "https://t3.ftcdn.net/jpg/00/29/13/38/360_F_29133877_bfA2n7cWV53fto2BomyZ6pyRujJTBwjd.jpg",
+            "grand_plaza_2.jpg",
+            "grand_plaza_3.jpg"
+        ],
+        "duration": "Per night",
+        "price": 250,
+        "maxGuestsAllowed": 2,
+        "roomType": "Deluxe Suite",
+        "amenities": [
+            "🛏️ King-sized bed",
+            "📺 Flat-screen TV",
+            "🌐 Free Wi-Fi",
+            "🍳 Complimentary breakfast",
+            "🏊‍♂️ Access to swimming pool",
+            "🏋️‍♀️ Gym",
+            "🚗 Valet parking"
+        ],
+        "rating": 4.7,
+        "noOfReviews": 350,
+        "owner": {
+            "image": "https://example.com/images/hotel_owner.jpg",
+            "name": "Emily Johnson",
+            "email": "emily@grandplazahotel.com"
+        },
+        "availableDates": [
+            "15 Apr, 2024 - 20 Apr, 2024",
+            "10 May, 2024 - 15 May, 2024"
+        ],
+        "checkInTime": "3:00 PM",
+        "checkOutTime": "11:00 AM",
+        "policies": "Cancellation policy: Free cancellation up to 48 hours before check-in.",
+        "additionalServices": [
+            "🍽️ In-room dining",
+            "🧖‍♀️ Spa services",
+            "🚖 Airport shuttle"
+        ]
+    }
+]

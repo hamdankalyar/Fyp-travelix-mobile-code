@@ -1,0 +1,49 @@
+[
+    {
+        "_id": "3",
+        "place": "Lahore",
+        "title": "Historic City Tour",
+        "travelClubName": "City Explorers",
+        "img": [
+            "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-package-offer-template-design-64607bea2c64aab3f469e359b4ec6ccb_screen.jpg?ts=1675708811",
+            "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-package-offer-template-design-64607bea2c64aab3f469e359b4ec6ccb_screen.jpg?ts=1675708811",
+            "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-package-offer-template-design-64607bea2c64aab3f469e359b4ec6ccb_screen.jpg?ts=1675708811",
+            "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-package-offer-template-design-64607bea2c64aab3f469e359b4ec6ccb_screen.jpg?ts=1675708811",
+            
+        ],
+        "duration": "4 days & 3 nights",
+        "price": 18000,
+        "personsAllowed": 5,
+        "amenities": [
+            "City guide included 🗺️",
+            "Cultural experience 🏛️",
+            "Traditional music and dance performances 🎶",
+            "Local handicraft shopping 🛍️",
+            "Cooking classes for regional cuisine 🍳",
+            "Food 🍳",
+            "Historical reenactments and festivals 🎉"
+        ],
+        "rating": 4,
+        "noOfReview": 40,
+        "owner": {
+            "image": "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+            "name": "Ikram Ali",
+            "email": "ikram@gmail.com"
+        },
+        "availableDates": [
+            "05 Mar,2024 - 09 Mar,2024",
+            "17 Mar,2024 - 29 Mar,20"
+        ],
+        "city": "Rome, Italy",
+        "feedbacks": [
+            {}
+        ],
+        "description": "Embark on an enriching journey through the storied streets of Rome, where the echoes of ancient history resonate with every step. Delve into the rich tapestry of the Eternal City's past as our knowledgeable guides unveil its timeless secrets and captivating tales.",
+        "features": [
+            "Pool",
+            "Wifi",
+            "AC",
+            "Food"
+        ]
+    }
+]
